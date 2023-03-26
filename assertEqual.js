@@ -28,4 +28,5 @@ assertEqual(1, 2);
 assertEqual("apple", "banana");
 assertEqual(10, 10);
 assertEqual("fruit", "fruit");
-
+// test changes
+assertEqual("fruit", "vegetable");
