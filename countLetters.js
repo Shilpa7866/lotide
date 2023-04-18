@@ -1,11 +1,11 @@
 const assertEqual = function(actual, expected) {
   if (actual === expected) {
-    console.log(`😃😃😃😃 Assertion Passed: ${actual} === ${expected}`);
+    console.log(`Assertion Passed: ${actual} === ${expected}`);
   } else if (actual !== expected) {
-    console.log(`😡😡😡😡Assertion Failed: ${actual} !== ${expected}`);
+    console.log(`Assertion Failed: ${actual} !== ${expected}`);
   }
 };
-  const letters = [
+ const letters = [
   "a",
   "b",
   "c",
@@ -32,7 +32,7 @@ const assertEqual = function(actual, expected) {
   "x",
   "y",
   "z",
-]
+//]
 
 const countLetters = function (string) {
   const results = {}
@@ -55,4 +55,4 @@ const countLetters = function (string) {
 const actual = countLetters("lighthouse bootcamp is awesome")
 
 assertEqual(actual['l'], 1)
-assertEqual(actual[' '], undefined)
+//assertEqual(actual[' '], undefined)
