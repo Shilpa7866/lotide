@@ -1,16 +1,16 @@
 {
-  "name": "lotide",
+  "name": "@shilpa_pulipati/lotide",
   "version": "1.0.0",
-  "description": "",
+  "description": "This is lotide project from Shilpa Pulipati",
   "main": "assertArraysEqual.js",
   "scripts": {
     "test": "mocha"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Shilpa7866/lotide.git"
+    "url": "https://github.com/Shilpa7866/lotide.git"
   },
-  "author": "",
+  "author": "shilpa_pulipati",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/Shilpa7866/lotide/issues"
