@@ -18,6 +18,7 @@ const tail = function(arr1) {
 }
 const result = tail(["Hello", "Lighthouse", "Labs"]);
 console.log(assertEqual(tail(["Hello", "Lighthouse", "Labs"])));
+console.log(assertEqual(tail([5,6,7]), 5));
 
 
 module.exports = tail;

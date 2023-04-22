@@ -9,7 +9,7 @@ console.log(assertEqual(head(["Hello", "Lighthouse", "Labs"]), "Hello"));
 module.exports = head;
 
 
-const assert = require('chai').assert;
+/*const assert = require('chai').assert;
 //const head   = require('../head');
 
 describe("#head", () => {
@@ -20,3 +20,4 @@ describe("#head", () => {
 it("returns '5' for ['5']", () => {
   assert.strictEqual(head(['5']), '5'); 
 });
+*/

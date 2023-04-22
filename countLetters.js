@@ -21,8 +21,10 @@ const countLetters = function(str) {
 
 };
 
-countLetters('LHL');
-countLetters('wooo');
+console.log(countLetters('LHL'));
+console.log(countLetters('wooo'));
+
+module.export = countLetters;
 
 
 

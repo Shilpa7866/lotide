@@ -29,3 +29,7 @@ The following functions are currently implemented:
 * `head((...)`: displays head of the array
 * `tail(...)`:  displays tail of the array
 * `middle(...)`: displays middle of the array
+  `assertEqual(...)`: displays assertEqual function
+  `assertArraysEqual(...)`: displays assertArraysEqual function
+  `assertObjectsEqual(...)`: displays assertObjectsEqual function
+  `eqArrays(...)`: displays eqArrays function
