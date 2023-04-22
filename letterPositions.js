@@ -13,3 +13,7 @@ const letterPositions = function(sentence) {
 
 console.log(letterPositions("hello"));
 console.log(letterPositions("lighthouse in the house"));
+
+module.exports = letterPositions;
+
+

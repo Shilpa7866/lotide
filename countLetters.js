@@ -1,3 +1,4 @@
+
 const countLetters = function(str) {
   let count = 0;
   let unique = "";
@@ -15,16 +16,17 @@ const countLetters = function(str) {
       if (unique.indexOf(str[i]) === -1) {
           unique += str[i];
           console.log(str[i] + ": " + count);
+          
       }
       count = 0;
   }
-
+ 
 };
 
-console.log(countLetters('LHL'));
-console.log(countLetters('wooo'));
+countLetters('LHL');
+countLetters('wooo');
 
-module.export = countLetters;
+module.exports = countLetters;
 
 
 

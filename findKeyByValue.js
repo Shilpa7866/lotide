@@ -31,3 +31,5 @@ console.log(findKeyByValue(bestTVShowsByGenre, "Brooklyn Nine-Nine"));
 console.log(findKeyByValue(bestTVShowsByGenre, "The Expanse"));
 console.log(assertEqual(findKeyByValue(bestTVShowsByGenre, "The Wire"), "drama"));
 console.log(assertEqual(findKeyByValue(bestTVShowsByGenre, "That '70s Show"), undefined));
+
+module.exports = findKeyByValue;

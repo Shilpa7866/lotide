@@ -1,4 +1,4 @@
-const flattenArray = (arr) => {
+const flatten = (arr) => {
 	let flatArr = [];
 	for (var i = 0; i < arr.length; i++){
 		if (Array.isArray(arr[i])){
@@ -12,4 +12,6 @@ const flattenArray = (arr) => {
 	return flatArr; 
 }
 
-console.log(flattenArray([1,2,3, [4,5], 6, [7,8], 9]))
+console.log(flatten([1,2,3, [4,5], 6, [7,8], 9]))
+
+module.exports = flatten;

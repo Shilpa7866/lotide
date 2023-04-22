@@ -34,3 +34,5 @@ function assertArraysEqual(actual, expected) {
   console.log(results1);
 
   assertArraysEqual(results1,"noma");
+
+  module.exports = findKey;

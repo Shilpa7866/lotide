@@ -1,5 +1,3 @@
-const assertEqual = require('../assertEqual');
-
 const assertObjectsEqual = function(actual, expected) {
   var isEqual = false;
   const keys1 = Object.keys(actual);
@@ -42,4 +40,4 @@ assertObjectsEqual({ a: '1', b: 2 },{ b: 2, a: '1', c: 3 });
 assertObjectsEqual("lighthouse", "labs");
 assertObjectsEqual("lighthouse", "lighthouse");
 
-module.export = assertObjectsEqual;
+module.exports = assertObjectsEqual;

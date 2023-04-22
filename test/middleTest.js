@@ -1,4 +1,4 @@
-const assertEqual = require('../assertEqual');
+
 const middle = require('../middle');
 
 console.log(middle([1,3,5])); // expected => []

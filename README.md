@@ -33,3 +33,12 @@ The following functions are currently implemented:
   `assertArraysEqual(...)`: displays assertArraysEqual function
   `assertObjectsEqual(...)`: displays assertObjectsEqual function
   `eqArrays(...)`: displays eqArrays function
+  `countLetters(...)`: counts the letters in the word and displays
+  `countOnly(...)`: counts only the letters in given word
+  `findKey(...)`: find the key of the object
+  `findKeyByValue(...)`: find the key by value
+  `flatten(...)`: displays the array as flatten
+  `letterPositions(...)`: displays the postion of the letters in the given word
+  `withOut(...)`: displays the message without the selected word
+  `takeUntil(...)`: takeUntil function
+  `map(...)`: map function
