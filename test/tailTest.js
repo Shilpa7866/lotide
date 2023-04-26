@@ -1,29 +1,16 @@
-/*const assertEqual = require('../assertEqual');
+//import assert library from chai package.
+const assert = require('chai').assert;
+
+// import tail function.
 const tail = require('../tail');
 
-console.log(assertEqual(tail(["Hello", "Lighthouse", "Labs"])));
-
-
-const assert = require('chai').assert;
-describe("#tail", () => {
-  it("returns labs for [Hello, Lighthouse, Labs]", () => {
-    assert.strictEqual(tail(["Hello", "Lighthouse", "Labs"]), "Labs" );
+describe('#tail', () => {
+  it("returns a new array containing all elements of the array except for the first one", () => {
+    assert.deepEqual(tail(["Hello", "Lighthouse", "Labs"]), ["Lighthouse", "Labs"]);
   });
-});
-*/
-
-const assert = require('chai').assert;
-const expect = require('chai').expect;
-const tail = require('../tail');
-
-describe("#tail", () => {
-  it("returns [2,3] for [1, 2, 3]])", () => {
-    expect(tail([1, 2, 3])).to.eql([2, 3]);
+  it("should not modify the original array when called an array", () => {
+    const words = ["Yo Yo", "Lighthouse", "Labs"];
+    tail(words);
+    assert.deepEqual(words, (["Yo Yo", "Lighthouse", "Labs"]));
   });
-  it("returns ['Lighthouse', 'Labs'] for ['Hello', 'Lighthouse', 'Labs']", () => {
-    expect(tail(['Hello', 'Lighthouse', 'Labs'])).to.eql(['Lighthouse', 'Labs']); 
-  });
-  //it("returns [6,7] for [5,6,7]", () => {
-    //assert.deepEqual(tail([5,6,7]), [6,7]); 
-  //});
 });
