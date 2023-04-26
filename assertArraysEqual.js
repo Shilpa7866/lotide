@@ -1,5 +1,3 @@
-
-
 function assertArraysEqual(actual, expected) {
   var index = 0;
   for (var key in actual) {

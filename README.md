@@ -26,19 +26,20 @@ This project was created and published by me as part of my learnings at Lighthou
 
 The following functions are currently implemented:
 
-* `head((...)`: displays head of the array
-* `tail(...)`:  displays tail of the array
-* `middle(...)`: displays middle of the array
-* `assertEqual(...)`: displays assertEqual function
-* `assertArraysEqual(...)`: displays assertArraysEqual function
-* `assertObjectsEqual(...)`: displays assertObjectsEqual function
-* `eqArrays(...)`: displays eqArrays function
-* `countLetters(...)`: counts the letters in the word and displays
-* `countOnly(...)`: counts only the letters in given word
-* `findKey(...)`: find the key of the object
-* `findKeyByValue(...)`: find the key by value
-* `flatten(...)`: displays the array as flatten
-* `letterPositions(...)`: displays the postion of the letters in the given word
-* `withOut(...)`: displays the message without the selected word
-* `takeUntil(...)`: takeUntil function
-* `map(...)`: map function
+* `head(...)`: function takes in an array and returns the first element in the array.
+* `tail(...)`:  function takes in an array and returns everything except the first element of the array, that is tail of the array.
+* `middle(...)`: function in an array and returns middle most element of the array.
+* `assertEqual(...)`: function takes in 2 values and returns true if they are equal otherwise false.
+* `assertArraysEqual(...)`: function prints an appropriate message after comparing the two arrays.
+* `assertObjectsEqual(...)`: function that takes in 2 objects and returns true if they are equal otherwise false.
+* `eqArrays(...)`: function takes in 2 arrays and returns true if the arrays are equal otherwise false.
+* `eqObjects(...)`: function takes in 2 objects and return true if they are equal otherwise false.
+* `countLetters(...)`: function counts the letters in the word and displays each letter count.
+* `countOnly(...)`: function that takes in a collection of items and returns a specific subset of those items.
+* `findKey(...)`:  function that takes in an object and callback and returns the first key that meets the criteria specified in callback.
+* `findKeyByValue(...)`: function that takes in an object and a value and returns the first key that corresponds to that value.
+* `flatten(...)`: function displays the nested array sorted and returns flatten version.
+* `letterPositions(...)`: function displays the postion of the letters in the given word.
+* `withOut(...)`: function returns the given array by removing the desired array element.
+* `takeUntil(...)`: function that takes in an array and callback and returns a slice of the array based on the criteria specified in the callback.
+* `map(...)`: function that takes in an array and a callback and returns a new array based on the results of the callback on each item in the array.
