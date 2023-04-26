@@ -1,6 +1,6 @@
 function assertArraysEqual(actual, expected) {
-  var index = 0;
-  for (var key in actual) {
+  let index = 0;
+  for (const key in actual) {
     if (actual[key] !== expected[key]) {
       index++;
     }
