@@ -1,4 +1,7 @@
+//import assert library from chai package.
 const assert = require('chai').assert;
+
+// import middle function.
 const middle = require('../middle');
 
 
