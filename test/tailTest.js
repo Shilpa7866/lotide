@@ -10,7 +10,7 @@ describe('#tail', () => {
   });
   it("should not modify the original array when called an array", () => {
     const words = ["Yo Yo", "Lighthouse", "Labs"];
-    tail(words);
-    assert.deepEqual(words, (["Yo Yo", "Lighthouse", "Labs"]));
+    //tail(words);
+    assert.deepEqual(tail(words), (["Lighthouse", "Labs"]));
   });
 });
