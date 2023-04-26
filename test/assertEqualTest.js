@@ -1,12 +1,10 @@
+// import assertEqual function.
 const assertEqual = require('../assertEqual');
 
-console.log(assertEqual("Lighthouse Labs", "Bootcamp"));
-console.log(assertEqual(1, 2));
-console.log(assertEqual("apple", "banana"));
-console.log(assertEqual(10, 10));
-console.log(assertEqual("fruit", "fruit"));
-// test changes
-console.log(assertEqual("fruit", "vegetables"));
-console.log(assertEqual("veggies", 22));
+assertEqual("Lighthouse Labs", "Bootcamp"); //failed! non identical strings. 
+assertEqual(1, 2);  // failed
+assertEqual("apple", "banana");  //failed
+assertEqual(10, 10);   //passed
+assertEqual("fruit", "fruit");  //passed! identical strings.
 
 module.exports = assertEqual;
