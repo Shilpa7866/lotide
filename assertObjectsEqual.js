@@ -1,4 +1,4 @@
-const assertObjectsEqual = function(actual, expected) {
+const assertObjectsEqual = function (actual, expected) {
   var isEqual = false;
   const keys1 = Object.keys(actual);
   const keys2 = Object.keys(expected);
@@ -7,10 +7,10 @@ const assertObjectsEqual = function(actual, expected) {
   } else {
     for (let key of keys1) {
       if (actual[key] === expected[key]) {
-        isEqual =  true;
+        isEqual = true;
       } else {
-          isEqual = false;
-          break;
+        isEqual = false;
+        break;
       }
     }
   }
@@ -21,23 +21,5 @@ const assertObjectsEqual = function(actual, expected) {
   }
 };
 
-const eqObjects = function(object1, object2) {
-  const keys1 = Object.keys(object1);
-  const keys2 = Object.keys(object2);
-  if (keys1.length !== keys2.length) {
-    return false;
-  }
-  for (let key of keys1) {
-    if (object1[key] !== object2[key]) {
-      return false;
-    }
-  }
-  return true;
-};
-
-assertObjectsEqual({ a: '1', b: 2 },{ b: 2, a: '1' });
-assertObjectsEqual({ a: '1', b: 2 },{ b: 2, a: '1', c: 3 });
-assertObjectsEqual("lighthouse", "labs");
-assertObjectsEqual("lighthouse", "lighthouse");
 
 module.exports = assertObjectsEqual;
