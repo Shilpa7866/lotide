@@ -1,8 +1,8 @@
 {
   "name": "@shilpa_pulipati/lotide",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "This is lotide project from Shilpa Pulipati",
-  "main": "assertArraysEqual.js",
+  "main": "index.js",
   "scripts": {
     "test": "mocha"
   },
